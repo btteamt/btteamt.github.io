@@ -1,0 +1,1596 @@
+{
+  "version": "2.0",
+  "metadata": {
+    "exportTime": "2026-08-17T13:38:13.734Z",
+    "datapackMoreVersion": "0.2.0",
+    "projectName": "导入的项目"
+  },
+  "namespaces": {
+    "arms": {
+      "_datadriven": {
+        "原版数据包/进度": [
+          {
+            "_t": 0,
+            "_d": {
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_first": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:location"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "player": {
+                            "_t": 0,
+                            "_d": {
+                              "entity_type": {
+                                "_t": 0,
+                                "_d": "minecraft:player"
+                              },
+                              "location": {
+                                "_t": 0,
+                                "_d": {
+                                  "block": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "blocks": {
+                                        "_t": 0,
+                                        "_d": ""
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "rewards": {
+                "_t": 0,
+                "_d": {
+                  "function": {
+                    "_t": 0,
+                    "_d": "arms:aac_trigger_exe"
+                  }
+                }
+              }
+            },
+            "_filename_id": "aac_trigger_adv"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:glass_lade"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "脆弱的东西"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "脆脆的"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "parent": {
+                "_t": 0,
+                "_d": "arms:glue"
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "_t": 0,
+                                  "_d": {
+                                    "items": {
+                                      "_t": 1,
+                                      "_d": [
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_helmet"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_chestplate"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_leggings"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_boots"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": {
+                      "_t": 0,
+                      "_d": [
+                        {
+                          "_t": 0,
+                          "_d": "obtain_item"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "_filename_id": "armer_glass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:iron_stick"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "多此一举"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "不如用木棍"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:story/smelt_iron"
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "_t": 0,
+                                  "_d": {
+                                    "items": {
+                                      "_t": 1,
+                                      "_d": [
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:iron_stick"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": {
+                      "_t": 0,
+                      "_d": [
+                        {
+                          "_t": 0,
+                          "_d": "obtain_item"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "_filename_id": "dcyj"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_first": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:entity_hurt_player"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "player": {
+                            "_t": 0,
+                            "_d": {
+                              "equipment": {
+                                "_t": 0,
+                                "_d": {
+                                  "head": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_helmet"
+                                      }
+                                    }
+                                  },
+                                  "chest": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_chestplate"
+                                      }
+                                    }
+                                  },
+                                  "legs": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_leggings"
+                                      }
+                                    }
+                                  },
+                                  "feet": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_boots"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "rewards": {
+                "_t": 0,
+                "_d": {
+                  "function": {
+                    "_t": 0,
+                    "_d": "arms:glass_arms_trigger_exe"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_arms_trigger_adv"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:gluu"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "粘合剂"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "黏黏的"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:story/smelt_iron"
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "_t": 0,
+                                  "_d": {
+                                    "items": {
+                                      "_t": 1,
+                                      "_d": [
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:gluu"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": {
+                      "_t": 0,
+                      "_d": [
+                        {
+                          "_t": 0,
+                          "_d": "obtain_item"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "_filename_id": "glue"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:glass_lade"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "玻璃大全"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "有用，没用？"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "parent": {
+                "_t": 0,
+                "_d": "arms:armer_glass"
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "_t": 0,
+                                  "_d": {
+                                    "items": {
+                                      "_t": 1,
+                                      "_d": [
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_lade"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_helmet"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_chestplate"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_leggings"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_boots"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_sore"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:glass_axe"
+                                        },
+                                        {
+                                          "_t": 0,
+                                          "_d": "arms:blue_glass_ping"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": {
+                      "_t": 0,
+                      "_d": [
+                        {
+                          "_t": 0,
+                          "_d": "obtain_item"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "rewards": {
+                "_t": 0,
+                "_d": {
+                  "experience": {
+                    "_t": 0,
+                    "_d": 1000
+                  }
+                }
+              }
+            },
+            "_filename_id": "task_glass_all"
+          }
+        ],
+        "原版数据包/魔咒": [],
+        "原版数据包/函数": [
+          {
+            "_t": 0,
+            "_d": "advancement revoke @s only arms:aac_trigger_adv\n# 请勿删除此行\ndamage @s 0.5\nattribute @s minecraft:movement_speed base set 0.5",
+            "_filename_id": "aac_trigger_exe"
+          },
+          {
+            "_t": 0,
+            "_d": "effect give @n arms:glass_but 60 2",
+            "_filename_id": "glass_arms_trigger_exe"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "glass_but_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @s 0.5\n",
+            "_filename_id": "glass_but_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @p 0.5\n",
+            "_filename_id": "glass_but_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "",
+            "_filename_id": "glass_haeth_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "damage @s 0.5",
+            "_filename_id": "glass_haeth_start"
+          },
+          {
+            "_t": 0,
+            "_d": "damage @s 0.5",
+            "_filename_id": "glass_haeth_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "heath_down_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @s 0.5\n",
+            "_filename_id": "heath_down_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "heath_down_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\neffect clear @s minecraft:nausea\nattribute @s minecraft:max_health base set 1024\n",
+            "_filename_id": "kuyao_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\nattribute @s minecraft:max_health base set 10\n",
+            "_filename_id": "kuyao_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\neffect give @s minecraft:nausea 5 1\n",
+            "_filename_id": "kuyao_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "",
+            "_filename_id": "load"
+          },
+          {
+            "_t": 0,
+            "_d": "",
+            "_filename_id": "tick"
+          }
+        ],
+        "原版数据包/配方": [
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:blue_stained_glass"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:blue_glass_ping"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 3
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_blue_glass_bottoo"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_ingot"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_bord"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_chestplate"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_arm"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:stick"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_axe"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_axe"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 2
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_bass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_boots"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_helmet"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_head"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass_bottle"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 6
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_hp"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 12
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_lade_glass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass_pane"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_lade_glass_pain"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_leggings"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_middeldown"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:stick"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_sore"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_sore"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:glass_bottle"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:slime_ball"
+                  },
+                  "undefined_symbol_D": {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 2
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glue"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_ingot"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:iron_stick"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_pickaxe"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_iron_pike"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shapeless"
+              },
+              "ingredients": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:stick"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:iron_nugget"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:iron_nugget"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:iron_stick"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 8
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_iron_stick"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shapeless"
+              },
+              "ingredients": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "arms:blue_glass_ping"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:allium"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:acacia_sapling"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:apple"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:pitcher_pod"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:kujingganlai"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_kuyao"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:stick"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_axe"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_oppsite_glass_axe"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:glass_bottle"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:golden_apple"
+                  },
+                  "undefined_symbol_D": {
+                    "_t": 0,
+                    "_d": "minecraft:enchanted_golden_apple"
+                  },
+                  "undefined_symbol_E": {
+                    "_t": 0,
+                    "_d": "minecraft:golden_carrot"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:hath_boost_poison"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_poison_one_heath_buff"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_boots"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_chestplate"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_helmet"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": {}
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_leggings"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          }
+        ]
+      },
+      "_files": {}
+    },
+    "dpmtest": {
+      "_datadriven": {
+        "原版数据包/函数": [
+          {
+            "_t": 0,
+            "_d": "give @s minecraft:diamond 1\n",
+            "_filename_id": "duration"
+          },
+          {
+            "_t": 0,
+            "_d": "give @s minecraft:bread 1\n",
+            "_filename_id": "end"
+          },
+          {
+            "_t": 0,
+            "_d": "give @s minecraft:apple 1\n",
+            "_filename_id": "start"
+          },
+          {
+            "_t": 0,
+            "_d": "say 1",
+            "_filename_id": "xpgive_tick"
+          }
+        ]
+      },
+      "_files": {}
+    }
+  }
+}
