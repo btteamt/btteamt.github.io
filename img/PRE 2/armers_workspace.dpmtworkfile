@@ -1,0 +1,4495 @@
+{
+  "version": "2.0",
+  "metadata": {
+    "exportTime": "2026-08-19T05:11:30.988Z",
+    "datapackMoreVersion": "0.2.0",
+    "projectName": "armers"
+  },
+  "namespaces": {
+    "arms": {
+      "_datadriven": {
+        "数据包附加/物品": [
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "glass_lade"
+              }
+            },
+            "_filename_id": "glass_lade"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "glass_helmet"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 32
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "head"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:glass_helmet"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "head"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_helmet_head_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0.5
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "head"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_helmet_head_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "gluu"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 32
+                  },
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "gluu"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "bord"
+              }
+            },
+            "_filename_id": "bord"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "hath_boost_poison"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:consumable": {
+                    "_t": 0,
+                    "_d": {
+                      "on_consume_effects": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": {
+                              "type": {
+                                "_t": 0,
+                                "_d": "apply_effects"
+                              },
+                              "effects": {
+                                "_t": 0,
+                                "_d": [
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:health_boost"
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 9
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 3600
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:regeneration"
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 1
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 1800
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:food": {
+                    "_t": 0,
+                    "_d": {
+                      "nutrition": {
+                        "_t": 0,
+                        "_d": 0
+                      },
+                      "saturation": {
+                        "_t": 0,
+                        "_d": 0
+                      },
+                      "can_always_eat": {
+                        "_t": 0,
+                        "_d": true
+                      }
+                    }
+                  },
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "hath_boost_poison"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "glass_chestplate"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 56
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "chest"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:glass_chestplate"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "chest"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_chestplate_chest_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 2
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "chest"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_chestplate_chest_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "glass_leggings"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 48
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "legs"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:glass_leggings"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "legs"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_leggings_legs_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 1.5
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "legs"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_leggings_legs_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "glass_boots"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 32
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "feet"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:glass_boots"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "feet"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_boots_feet_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0.5
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "feet"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "glass_boots_feet_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 0
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "quarzeril_helmet"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 200
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "head"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:quarzeril_helmet"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "head"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_helmet_head_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 2
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "head"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_helmet_head_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 3
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "quarzeril_chestplate"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 500
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "chest"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:quarzeril_chestplate"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "chest"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_chestplate_chest_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 3
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "chest"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_chestplate_chest_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 3
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "quarzeril_leggings"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 450
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "legs"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:quarzeril_leggings"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "legs"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_leggings_legs_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 3
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "legs"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_leggings_legs_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 3
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "quarzeril_boots"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 1
+                  },
+                  "minecraft:damage": {
+                    "_t": 0,
+                    "_d": 0
+                  },
+                  "minecraft:max_damage": {
+                    "_t": 0,
+                    "_d": 370
+                  },
+                  "minecraft:equippable": {
+                    "_t": 0,
+                    "_d": {
+                      "slot": {
+                        "_t": 0,
+                        "_d": "feet"
+                      },
+                      "asset_id": {
+                        "_t": 0,
+                        "_d": "arms:quarzeril_boots"
+                      },
+                      "equip_sound": {
+                        "_t": 0,
+                        "_d": "minecraft:item.armor.equip"
+                      },
+                      "allowed_entities": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": "minecraft:player"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "feet"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_boots_feet_armor"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 2
+                          }
+                        }
+                      },
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "type": {
+                            "_t": 0,
+                            "_d": "minecraft:armor_toughness"
+                          },
+                          "slot": {
+                            "_t": 0,
+                            "_d": "feet"
+                          },
+                          "id": {
+                            "_t": 0,
+                            "_d": "quarzeril_boots_feet_armor_toughness"
+                          },
+                          "operation": {
+                            "_t": 0,
+                            "_d": "add_value"
+                          },
+                          "amount": {
+                            "_t": 0,
+                            "_d": 2
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "iron_stick"
+              }
+            },
+            "_filename_id": "iron_stick"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "chouj_yaoji"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:consumable": {
+                    "_t": 0,
+                    "_d": {
+                      "animation": {
+                        "_t": 0,
+                        "_d": "drink"
+                      },
+                      "on_consume_effects": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": {
+                              "type": {
+                                "_t": 0,
+                                "_d": "apply_effects"
+                              },
+                              "effects": {
+                                "_t": 0,
+                                "_d": [
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "arms:chouj"
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 0
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 9600
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "minecraft:food": {
+                    "_t": 0,
+                    "_d": {
+                      "nutrition": {
+                        "_t": 0,
+                        "_d": 0
+                      },
+                      "saturation": {
+                        "_t": 0,
+                        "_d": 0
+                      },
+                      "can_always_eat": {
+                        "_t": 0,
+                        "_d": true
+                      }
+                    }
+                  },
+                  "minecraft:max_stack_size": {
+                    "_t": 0,
+                    "_d": 16
+                  }
+                }
+              }
+            },
+            "_filename_id": "chouj_yaoji"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "diamond_apple"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:food": {
+                    "_t": 0,
+                    "_d": {
+                      "nutrition": {
+                        "_t": 0,
+                        "_d": 20
+                      },
+                      "saturation": {
+                        "_t": 0,
+                        "_d": 20
+                      },
+                      "can_always_eat": {
+                        "_t": 0,
+                        "_d": false
+                      }
+                    }
+                  },
+                  "minecraft:consumable": {
+                    "_t": 0,
+                    "_d": {
+                      "on_consume_effects": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": {
+                              "type": {
+                                "_t": 0,
+                                "_d": "apply_effects"
+                              },
+                              "effects": {
+                                "_t": 0,
+                                "_d": [
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:strength"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 72000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:regeneration"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 36000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:health_boost"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:resistance"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 4
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_filename_id": "diamond_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "enchant_diamond_apple"
+              },
+              "components": {
+                "_t": 0,
+                "_d": {
+                  "minecraft:food": {
+                    "_t": 0,
+                    "_d": {
+                      "nutrition": {
+                        "_t": 0,
+                        "_d": 20
+                      },
+                      "saturation": {
+                        "_t": 0,
+                        "_d": 20
+                      },
+                      "can_always_eat": {
+                        "_t": 0,
+                        "_d": true
+                      }
+                    }
+                  },
+                  "minecraft:consumable": {
+                    "_t": 0,
+                    "_d": {
+                      "on_consume_effects": {
+                        "_t": 0,
+                        "_d": [
+                          {
+                            "_t": 0,
+                            "_d": {
+                              "type": {
+                                "_t": 0,
+                                "_d": "apply_effects"
+                              },
+                              "effects": {
+                                "_t": 0,
+                                "_d": [
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:haste"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:strength"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:regeneration"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 5000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 254
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:fire_resistance"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 0
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:water_breathing"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 0
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:resistance"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 4
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "_t": 0,
+                                    "_d": {
+                                      "id": {
+                                        "_t": 0,
+                                        "_d": "minecraft:night_vision"
+                                      },
+                                      "duration": {
+                                        "_t": 0,
+                                        "_d": 10000000
+                                      },
+                                      "amplifier": {
+                                        "_t": 0,
+                                        "_d": 0
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_filename_id": "enchant_diamond_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "yohengsuip"
+              }
+            },
+            "_filename_id": "yohengsuip"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "item_id": {
+                "_t": 0,
+                "_d": "yonghengbolid"
+              }
+            },
+            "_filename_id": "yonghengbolid"
+          }
+        ],
+        "原版资源包/模型": [
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_lade"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_lade"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_helmet"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_helmet"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/gluu"
+                  }
+                }
+              }
+            },
+            "_filename_id": "gluu"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/gluu"
+                  }
+                }
+              }
+            },
+            "_filename_id": "gluu"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/bord"
+                  }
+                }
+              }
+            },
+            "_filename_id": "bord"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/bord"
+                  }
+                }
+              }
+            },
+            "_filename_id": "bord"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/hath_boost_poison"
+                  }
+                }
+              }
+            },
+            "_filename_id": "hath_boost_poison"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/hath_boost_poison"
+                  }
+                }
+              }
+            },
+            "_filename_id": "hath_boost_poison"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_chestplate"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_chestplate"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_leggings"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_leggings"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_boots"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/glass_boots"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:block/glass_lade_block"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade_block"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:block/cube_all"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "all": {
+                    "_t": 0,
+                    "_d": "arms:block/glass_lade_block"
+                  },
+                  "parent?1": {
+                    "_t": 0,
+                    "_d": "minecraft:block/cube_all"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade_block"
+          },
+          {
+            "_t": 3,
+            "_d": {
+              "variants": {
+                "_t": 0,
+                "_d": {
+                  "undefined_variant_key_": {
+                    "_t": 0,
+                    "_d": {
+                      "model": {
+                        "_t": 0,
+                        "_d": "arms:block/glass_lade_block"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade_block"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_helmet"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_chestplate"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_leggings"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_boots"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_helmet"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_chestplate"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_leggings"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/quarzeril_boots"
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/iron_stick"
+                  }
+                }
+              }
+            },
+            "_filename_id": "iron_stick"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/iron_stick"
+                  }
+                }
+              }
+            },
+            "_filename_id": "iron_stick"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/chouj_yaoji"
+                  }
+                }
+              }
+            },
+            "_filename_id": "chouj_yaoji"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/chouj_yaoji"
+                  }
+                }
+              }
+            },
+            "_filename_id": "chouj_yaoji"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/diamond_apple"
+                  }
+                }
+              }
+            },
+            "_filename_id": "diamond_apple"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/diamond_apple"
+                  }
+                }
+              }
+            },
+            "_filename_id": "diamond_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/enchant_diamond_apple"
+                  }
+                }
+              }
+            },
+            "_filename_id": "enchant_diamond_apple"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/enchant_diamond_apple"
+                  }
+                }
+              }
+            },
+            "_filename_id": "enchant_diamond_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/yohengsuip"
+                  }
+                }
+              }
+            },
+            "_filename_id": "yohengsuip"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/yohengsuip"
+                  }
+                }
+              }
+            },
+            "_filename_id": "yohengsuip"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "model": {
+                "_t": 0,
+                "_d": {
+                  "type": {
+                    "_t": 0,
+                    "_d": "minecraft:model"
+                  },
+                  "model": {
+                    "_t": 0,
+                    "_d": "arms:item/yonghengbolid"
+                  }
+                }
+              }
+            },
+            "_filename_id": "yonghengbolid"
+          },
+          {
+            "_t": 1,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:item/generated"
+              },
+              "textures": {
+                "_t": 0,
+                "_d": {
+                  "layer0": {
+                    "_t": 0,
+                    "_d": "arms:item/yonghengbolid"
+                  }
+                }
+              }
+            },
+            "_filename_id": "yonghengbolid"
+          }
+        ],
+        "原版资源包/语言文件": [
+          {
+            "_t": 0,
+            "_d": {
+              "undefined_lang_entry_item.arms.glass_lade": {
+                "_t": 0,
+                "_d": "玻璃碎片"
+              },
+              "undefined_lang_entry_item.arms.glass_helmet": {
+                "_t": 0,
+                "_d": "玻璃头盔"
+              },
+              "undefined_lang_entry_item.arms.gluu": {
+                "_t": 0,
+                "_d": "胶水"
+              },
+              "undefined_lang_entry_item.arms.bord": {
+                "_t": 0,
+                "_d": "板子"
+              },
+              "undefined_lang_entry_item.arms.hath_boost_poison": {
+                "_t": 0,
+                "_d": "生命药水"
+              },
+              "undefined_lang_entry_item.arms.glass_chestplate": {
+                "_t": 0,
+                "_d": "玻璃胸甲"
+              },
+              "undefined_lang_entry_item.arms.glass_leggings": {
+                "_t": 0,
+                "_d": "玻璃护腿"
+              },
+              "undefined_lang_entry_item.arms.glass_boots": {
+                "_t": 0,
+                "_d": "玻璃靴子"
+              },
+              "undefined_lang_entry_effect.arms.glass_haeth": {
+                "_t": 0,
+                "_d": "玻璃扎伤"
+              },
+              "undefined_lang_entry_effect.arms.glass_but": {
+                "_t": 0,
+                "_d": "玻璃刺"
+              },
+              "undefined_lang_entry_block.arms.glass_lade_block": {
+                "_t": 0,
+                "_d": "玻璃锥刺"
+              },
+              "undefined_lang_entry_effect.arms.heath_down": {
+                "_t": 0,
+                "_d": "生命伤害"
+              },
+              "undefined_lang_entry_item.arms.quarzeril_helmet": {
+                "_t": 0,
+                "_d": "绿宝石头盔"
+              },
+              "undefined_lang_entry_item.arms.quarzeril_chestplate": {
+                "_t": 0,
+                "_d": "绿宝石胸甲"
+              },
+              "undefined_lang_entry_item.arms.quarzeril_leggings": {
+                "_t": 0,
+                "_d": "绿宝石护腿"
+              },
+              "undefined_lang_entry_item.arms.quarzeril_boots": {
+                "_t": 0,
+                "_d": "绿宝石靴子"
+              },
+              "undefined_lang_entry_item.arms.iron_stick": {
+                "_t": 0,
+                "_d": "铁棒"
+              },
+              "undefined_lang_entry_effect.arms.chouj": {
+                "_t": 0,
+                "_d": "抽奖"
+              },
+              "undefined_lang_entry_item.arms.chouj_yaoji": {
+                "_t": 0,
+                "_d": "抽奖"
+              },
+              "undefined_lang_entry_item.arms.diamond_apple": {
+                "_t": 0,
+                "_d": "钻石苹果"
+              },
+              "undefined_lang_entry_item.arms.enchant_diamond_apple": {
+                "_t": 0,
+                "_d": "附魔钻石苹果"
+              },
+              "undefined_lang_entry_effect.arms.create": {
+                "_t": 0,
+                "_d": "创造"
+              },
+              "undefined_lang_entry_item.arms.yohengsuip": {
+                "_t": 0,
+                "_d": "永恒碎片"
+              },
+              "undefined_lang_entry_item.arms.yonghengbolid": {
+                "_t": 0,
+                "_d": "永恒玻璃刀"
+              }
+            },
+            "_filename_id": "zh_cn"
+          }
+        ],
+        "原版资源包/纹理": [
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsUlEQVR4AdyQsQ2DQAxFj2wQKWWaFFH6rJARMicjsAI9oqChRGIE0Cv+yYANBR1IX7bP/54539LJ76qAsmqnteyq6Kl2d/D/vQsM3889Kaf2lAFQkWfyzuTNAJlooKPJ8m8A9mLdjKnrh0lmInCilAG6iIGciAkIUTU5fSLKAAoaCDMLXItzfFYLgG28no8C2TNyDSBShwBNA4LsU3Q5BMgARMLsKfwDIJEsKARY014+AwAA//9XgMVCAAAABklEQVQDACBpaSGpAPRPAAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_lade"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlklEQVR4AcyRvQ2AIBCFxcoxbBzETTSxcBV3sHATB7FxDDvkmRyB4xlDLJTk5fi5990BZfFy/BSwzKtlYrdNrgBjN7SGqWpqqyERQMw6SdbHthsNiQCSmBNvAehGpKuGBSgAxvANWOsCoQA5DKODhEs/p4Bx6n3C0yQCoG2076oZYrx+QJ9FAJgAQWTSZuQkAGzm6HvACQAA//8DFwsWAAAABklEQVQDAOn1SyHx/lJ3AAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAADBklEQVR4AeTY3W0USxAFYHsCcAZIRMMzKSACgFAgAAuJCHgmAhLgHYkMSMDoW+lIRXlm2vbM7nrxlY761E9XV53u8eoyXQ3++/T5+923L7cH4EF8g+3PPjwUwARv372/ho8f3lwH7F9/XglfNB4kwEVPOGh+KMDrm9+DEpcdHgqwNt7/IM4mAV7E34C1IV/MC/DTl589PFj7PC4lNmWYPiBbLIN4CeDWgZ8tJ7nh1earqDFcnXPi8DfAb7vfdcAB15hh2QE/sMXkxObDARcDPEiMTUDxc2LKEHNNJOYG623hfPYkB+9Yi/Xcc9mHF1APNxgYkt8tuS03xwacDwe59gC7Yk2EtVitcUw+GVDjhgCDgSEBX2pAPJAHaoCaai/t5R/F5Rwbk6Yhg2w9MHXUBEMSpNcl0LN4Ab2xvW0iEIUIhgY8/r3Pe2y9e38DHlvgoflEMDTgD923d16vNxQgN2aFXuDUth4CL2nr+UMBfKduzM3hWw/cY79ewN+XrfWGAtRDKt968FP3730JQwE06snt8dzU2gN6gT3EGArgqUE+gz4AcUBDgMNSnhjIBRzW8ufyvEYQAzWg816320MB+oY5OwJpSJytGRw0xYcDTtCaL8cewOXkhuWy7bVnZMsF+SNsFiBN5qDYGjAIaLjHY2eVYw/g8dc1teMb2cRK7tK6WYB6iIaqbRDI4T3OhsT7qlaNd1ttgmVft+NfWzcLUItrsNqd9zgbel6381lEDHbPmbOTPxeLb7MA/ZBu56Cso3jysuZWrUG99eTNrfLn/NU3+UaBqoADDnO8+mqxp/A1QdZiTzlrbs/hf4cpVVWtticqBimQuAbF4+92/Fl7nJ3Y3Fprz8X38N37BOqhvUGx6mNrIi8l9tfbH3f8FXyJ1/z4au4p+T//JFaH04Tmuo+/wsuAvAr8Zvp5ZeDk4XxiQc0nCPi0IFxuahxrPXwCKW7g8KW15iyJYzgDGwZwvqWaBgU5EL6Uv6f/8AIoDgYCXOO4w3A+NsSuYsirMEhFjZ2Sj876CwAA//+js0VDAAAABklEQVQDANSJ6KnIHQcHAAAAAElFTkSuQmCC",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVR4AYyQ0Q3DIAxEoRN0CDoH/Hbh/ALfHaHdpb2rIMJgo0ScMLbvGXJzmy/n/KI2Lc4EwBi893eKsQUxATC+YQpUixGuywSsrXpGBZRSvnO7lmOPCmBB0UfJrT8Rk55o5PuxiRVaTSTFDdDAqx8xxgfkugbH0XrOlACcWQS1Vkch/IO4azIBnK4Z5pwKmCf382zmWQWwQBPFeCcTwCdQOzNrJoDTu9hoSQBSSv6KRpgAjIWr8Q8AAP//CIeKZwAAAAZJREFUAwBi3kUhYT3nwgAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "gluu"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR4AeySyQ3AIAwETSpzaS7NnRH2sRaPyEnMCwmkEYfY4bxksaQCM+sZWPtRwBAmvBECd+9EVUUTZmkI5sE/7SMQ2fgOxmdreO7SERguCxAksYPxddtXGEYdAnQq3AAAAP//1bFVXwAAAAZJREFUAwC00jQhXTywVAAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "bord"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA90lEQVR4AbSRIQvCUBSF72ya14xisrg/sGARQZNBg5othoE/YHFBWDVrUjRpscmCBsNEhkVEECyyJIi26RkM3N57MhAHJ7x77/nu4S5BP37/BTidkgeNillPFFSYwLk8vGehQVCmrdPMdrkQIeB0vdOxr/vaGJooAAkBFUWWUsaaaouDtKpPCG8eRQjgDfNqQgBuEGwdaqrUNK34N4A5l076h3u7PGigqcSDMAkC89x2qazIodQ8CAMIOWI8GAB+H3zR7b3pFmVGDGC83DND3woMABdvmVbIg+3dap5QR/+zyQDQxBCGA+3ON64Zs1wAGoBEhXpULwAAAP//zFAQ2gAAAAZJREFUAwAwOWchCyag7gAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "hath_boost_poison"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR4AdzQIQ7CQBCF4RaF4gwYroDl7FiugEEhkCiCKfk22aaZziKgqk3+7Oy8N6+b2XR/fssE7E7HIRIfFnV3nvEFz/OlrxAyqu6s+hhQG06G+gd3tZ46kgYwGTAItV5GM4DZINQtSsD7/ui2h/3QMsU+rxn9EvC63noQNL/Bwwu+EqD4lbUFWIwltfZB45nqsx0wMGbQpsPqWYAmYwYt8gEAAP//6bpBQgAAAAZJREFUAwCGNW4h6+fzhQAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAC90lEQVR4AeTYMY7UQBAFUNYnIiMg4A4kHIIAiYMgEXAIEu5AQEDGjUDP0peKWts9gz0zOyzSl39V/a6uqm6PxU4vBv++ff31+8PHLzPwIL7B8icfHg5AB58/vX+At+9ePgTsN69eC981ThrAXXc4KH44gO8/fwxS3Hd4OICt9v6H4ewawLP4Ddhq8tncAJ++fPbwYOv1uJfYlGZ6g2yxNOImgFMHfjZNtOHV5quoMVyeW2L+DfBt910HHHCFaZYd8ANbjCY2Hw64GOBBYmwDFL8lpjSxVERiTrCeFs5nTTR4x1asa29lzzegbq4x0CS/U3JaTo4NOB8OtNYAu2JrCFuxmuOSfNKgwjUBGgNNAr5WgHhAB3KAnHKvreUfxWkujUnRkEb2bpg8coImDaTnNaAncQN6YUfbhmAohqBpwOM/er9z8z36DTg3wal6Q9A04KeuO1rX8w0HkBPzhJ7g2rYaAjdp7/7DAXhPnZiTw/dueMR6tYDfl735hgOom1S+d+N/XX/0IQwHoFBX7ojrJtcRUAscMYzhAFw1yGvQGzAcUBDgsKYTA1rAYUu/pHMbQQzkgM573m4PB9AXLNkZkILE2YrBQVF8OOAGWvU01gBOkxOmZVtrzcimBfoRdg8gRWaj2ArQCCi4x2PnSWMN4PHXZ3LHN7INK9q15+4B1E0UVG2NQDbvcTYk3p9y1Xi35TawrOt2/FvP3QOoyRVY7c57nA1d1+28FhkGu2u6TRN9j1V79wD6Jt2um+GjOE1FTtUzqKdetZXT0FffEp+8o2BigAMOS7z6lpKe49sayFbsnD22tPN/h03KxCKstisqBj2uQPH4ux1/nj3OTmzpWXMvxY/wPXoF6qa9QLHqYysiNyU23xISr/r4lvTX8P31J7HanM0V1338FW4G5NbgXpGqwfnEgqo3EKCBcFprL4n5FcgGGg5fe1bN2nA0p5EKvrWcGgUaCF/TH+mfb4CJg4YAVzxuM5yPDbHrMOgqNFJRY9fko73+AAAA///GsOF+AAAABklEQVQDAErw7dXqZgsdAAAAAElFTkSuQmCC",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAm0lEQVR4AbSRvQ5EUBCF1xabrZQKlcYraD271itoVAqlSjTki4iZkZErfpITZ07u+Qy+n5vX84C4LGZP/zyb7cJqA4pDVUeexqaNLEQBLD1kfhfAuuhsE3cDirwzwnsQFyALvzSRo/JBANUwQxBg6npT28cgwH786BTg7EnH6pooABFfHOGlyJDM8ArAL5PiAJIZnmyTAmzhlfsCAAD//1+MiykAAAAGSURBVAMAxdlOIVc6CTAAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 7,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAABrUlEQVR4AeyWTVLDMAyF3Wx6vN6FyRFgl+Eu7DgZQzcUfaoV5B8mw4QuHLtTRXqS4vipVtQpdP4ZBej8AIRxAsYJ6LwCowU6PwDjJThaYLRA5xUYLdD5ARhToLsWyE98UYBlebupvN51fsPRcFEACM7z5TQ/XU49NEhZgNITjvyp0l04/iJHJm7cJu131/ca+JIrImqNS0G0MC4XLClNf/UEaM9L3ysTIZ5gcSrmnSAxgWHFgMZlSl50keDKCawlih5sJMJA3OxG9VSQ8ASxPUlvN0o43zYUf3wgT9LbllXzWaxBnbZAjQBFqfkP4ktbgF/XE8bGZ2TBZqNzjK8xKSl4wtg+A5wR3BqTSZwRyjg1bTYYMYyOkj3u36HSY56zUV1dPNiIYrkUcTYnG7YX6DoWY4EM83dabRmx2LJU4B71MVbVEe5jNeZYTPPjejHtIWpaH8gGENmY+rARMIKNYCPYIskYZYtSQFRV8hgEc1/1xsc59z8eErY/VvPY/KaJkWN4S/8ld2utX+K7H3H9PK9LXz/OwWPa6OX5/WYJxMjx2Gx0nk+74N8jW/d+AwAA//+shPkWAAAABklEQVQDAHRT8WPl2SxSAAAAAElFTkSuQmCC",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR4AdySPQ5AQBCFUamcQeMKWmfXuoJGpVCqREO+iSe7IvGzjZB83noz3maHJAq8PhiQVeUidDo9o/Kk3hFoGOsmhrkf1GOKB2mRL2ZsNy9g8x7JnwI0wKsBTG0Xu4O0Gdx9WeFuiAWoIHV3wOOTHj182ANoEOwANABrUB3FBwvgB6FBUDhDdSk9FsDiLcEBKwAAAP//WGyg+AAAAAZJREFUAwAf7VYhv6qF2AAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAC9klEQVR4AeTYMZLUQAwFUNYBGRk34RAcBiIijkBEBIfhENyEjIwE6rnqVwmt7Z7Bnpkdlqpf/pJ+qyV1e1zs9GLw7+vn778/ffk2Aw/iGyx/8uHhAHTw8f3bB3j34c1DwH7167XwXeOkAdx1h4PihwP4+fLHIMV9h4cD2GrvfxjOrgE8i9+ArSafzQ3w6ctnDw+2Xo97iU1ppjfIFksjbgI4deBn00QbXm2+ihrD5bkl5t8A33bfdcABV5hm2QE/sMVoYvPhgIsBHiTGNkDxW2JKE0tFJOYE62nhfNZEg3dsxbr2VvZ8A+rmGgNN8jslp+Xk2IDz4UBrDbArtoawFas5LsknDSpcE6Ax0CTgawWIB3QgB8gp99pa/lGc5tKYFA1pZO+GySMnaNJAel4DehI3oBd2tG0IhmIImgY8/qP3Ozffo9+AcxOcqjcETQN+6rqjdT3fcAA5MU/oCa5tqyFwk/buPxyA99SJOTl874ZHrFcL+H3Zm284gLpJ5Xs3/tf1Rx/CcAAKdeWOuG5yHQG1wBHDGA7AVYO8Br0BwwEFAQ5rOjGgBRy29Es6txHEQA7ovOft9nAAfcGSnQEpSJytGBwUxYcDbqBVT2MN4DQ5YVq2tdaMbFqgH2H3AFJkNoqtAI2Agns8dp401gAef30md3wj27CiXXvuHkDdREHV1ghk8x5nQ+L9KVeNd1tuA8u6bse/9dw9gJpcgdXuvMfZ0HXdzmuRYbC7pts00fdYtXcPoG/S7boZPorTVORUPYN66lVbOQ199S3xyTsKJgY44LDEq28p6Tm+rYFsxc7ZY0s7/3fYpEwswmq7omLQ4woUj7/b8efZ4+zElp4191L8CN+jV6Bu2gsUqz62InJTYvMtIfGqj29Jfw3fX38Sq83ZXHHdx1/hZkBuDe4VqRqcTyyoegMBGgintfaSmF+BbKDh8LVn1awNR3MaqeBby6lRoIHwNf2R/vkGmDhoCHDF4zbD+dgQuw6DrkIjFTV2TT7a6w8AAAD//8BS0dkAAAAGSURBVAMAvn/sQedysEwAAAAASUVORK5CYII=",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7UlEQVR4AYySIQ7CQBRECwKDReLwBFQdN0ChOQSCUyAw3ABHwh0IgqSOILAkyEoSBAryfjLN325Ltsn0/52ZfTXtZi1PURTfliiwWwG0UiB/AR4CTMKXKkBTmOd5R0WmznQ5IwPIoKCdUMIj46zJjgzA4gMu4KWoAuiSBwngPfWUGYACIkQK/S6PSZeJDMCCfMBZAiTJ0wwAmP3hOANU9kY22b12lw+1ShGgShKXCPAo33Z1Ph0E/8DmeG38tSPA4XQ3QOorAuxXs85yew6+xtfXi4n55B4eAQgpAZFuz1fGjk/u1QigQLku/Lp+AAAA///2nVgtAAAABklEQVQDAMSJgSHPWItkAAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_haeth"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoUlEQVR4AcTNUQ6DMAyD4a0n69F7s00fklE6qk48gfTj4DimjTE+ldfNp/Xe326iKePtkLNvXkEJfCdgrvDBo1MBEykxC1Xsgv1RwBBiUGSmO46CBHKocIVcMtGzwIFANAFeqDszzoKEqGNL84q6WxbUwKrAD+JfCuoyoaq/5VNBlkpCPTbzaZgKmEqCbwcVnj3FpYAZBFdkT7cFAv94vuALAAD//09UtnEAAAAGSURBVAMAxwaMIYIqBnoAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_but"
+          },
+          {
+            "_t": 4,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyElEQVR4AZSTgQ2DIBBFyy3STiI6WV2hI3QSwYW6AfQeSY0iUDT8EA/u/U8Ccqt867pa59xnWZaxsiWVq4AQwmyMmXUX0qk8igDcY4zGWvtSSGylKAJwV7/kLCLMSEvnIXnp5z5Nk2NtGAbfSnEC7N0BoFaKAyB3pxm1UhwAJXcAqJZiA9TcaUa1FBug5Q4AlVIkwD93mlEpRQL0uANAeQrpdacZ5SnkijsAtE/BER5asN77Z6/0nYx6O++8EdGft6YwV0Uf1/0LAAD//6Hb1l8AAAAGSURBVAMAm1/FNCz6s/gAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "glass_lade_block"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVR4AaSSgQ3CMBADP0yWzWAdtsgUrBN8X31QQl+tWmQ3b8dvVKkPu/m7VNBa65D/HgUvs76SwJ5Xay2Qey8ghPiUYkE0fmjO8DiDXoCIAHPGyFAcmVEQRpyEYeg4Vy8tiIWj0wueSr17t7PUKxStOLxASnB9+FBQ+MW8AClXYMqpgDDfjwJs3QpM5zkVsKYGgWmmTGH2UH8FmEoKTBslhG1en7sFhLSh79Kc6IxpQbaw+rcLvgAAAP//qMpESwAAAAZJREFUAwDsTkMhx/I5vAAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "heath_down"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7klEQVR4AcyPIQvCUBSFrwYxiGHBosGgYFyyCgaD0V8gGAxLJlGDGNRfYbeo/0BcNRkFDQYVWVhYkLEyOY9tvLf3QMGgg7N7uO+e772bpC+/PwVka1VfJdW20goIarMx1dcFQRmjR+ly0Y9DBEAYbugmbbQV5dKlaD6Vz5I2nUsQAYBpvbJAoe6zT5Z7Zv5w7LAKCDPcL8n5yCK4bO5o27oyPdoGeTcnOueNEoCgd7coFAL2aIAiSQmQpoKG6hUSAPvi5iDztggAx9wn7OGEhdzTJcELTayBHnwoAYAmIPEh9NGD4HlJAP7wE/97wAsAAP//R79KKwAAAAZJREFUAwBlkWEhdsT0IAAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABE0lEQVR4AayQsQ4BQRRFH9FSaMQnKEWiVfgBpUpUFL5AFKLxAypKP0DUCq1KqdBoCAoJGhEJeyaZyZid1bDZu/Pm3vvuvJ24/Pj8JyBVKr5cuIO5Ons8ZoLLYimD+UzKkyy8Fz6PCRg/jzK9NVVjut8VfQIENZztgQcmQDdD9ooFoYFGQJ3PjcwBeDRMwHJeldW6ofhaIiOE8EuAZiUEHzx4g1K9KuCxP8m505bH7iqV5FAYFZWpALUGHuUNeuBUwH2zjQEESOA2wgE8eAF7FUChEdWIzvisNkIBiN9C0G2EAnyn0BDFhwK4JMwuCEFjtfERwMVwST4jHBqeyAAEDBgP9ZbYgEPDY+NjAi1g9EHr9voGAAD//xxMrQ0AAAAGSURBVAMA5BqyIWRUR8MAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7ElEQVR4AayRoQoCQRRFR8NiMhgEtVj8Bau/YDQKBrtNNCp+gH9gMy2YN1htNoMGi6IGRUSQRVg5CyMzOzOC6MLhPS7vnRlm0+LH7/+CbK0auchUylHywtoNWBwHM3GdL2LooeUXBOSGI5GUaAJpnzyPonOpi+WtHSNzrzSQ7btaBSwy4a82AuhdWAUMs3ho3gVMgwaRFUMgT2fxsd6m4NzrWpcJDQEhp1MlXjEvW6NaBcbUh8AQJE9nN9yfnI9pCOKFXZ9iEFpyTcBJtiFMrlwTMMiLA70KGagZvSbgl6kwAGpGTybRBDL8pr4AAAD//wrstgMAAAAGSURBVAMAXoB1IWKklZIAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA5UlEQVR4AcyRMQ4BQRiFh0qlptMoXECicgCXUGm4gDiHZiuJSiGiV1AJF1BoNEQUEquRjWTl++PfzJrdRGxjk7f/7HvfvGRm8ybj84cFxWY9VOnp9Jupns7YEQBuy43xFj0TnC7KyFS/UK2EYrxfsQK8yXPMcIQ/v08d3ymASAKTPFinIA0ETpJTALTedRhfKSrgAluzcuomLS2Nhsa+SCmwNwMGR98pwiNr1Dxjl0gBNCECvA76WJH4peopo2FUcG53DQJ87A85pBBrRI5gNJMCf7WVDUBIw89JZotcClj8qswFLwAAAP//84ATcQAAAAZJREFUAwAVMHshdWyZMAAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAEuklEQVR4AeTZPYgVVxQH8PteCAorBhLyoSCk2MhuEkga89XEJHU2TcAuRUjAWAabVCGVBEyKVAsJARUEQSzUTvCjWVEbFXQFFywWFBUFRUEFWed34SyX8TmzMPvcXZX9vznnnv+595wzcz9m7KeWf1vObJj7/tjrGeRAtLW4L3tzawFksOuT2bTzs6n08wd/ZLw3+nUa+/jb9MqaEeYVjQUV4GZ/Nk1c354O3p3MuPtwekUnXQbfWoDH9+6nmbmptHn1jXT8wVvzeFGK0FqAslrkidfeSLB21XhSHG0rGQsqwPGHJ57KcdOrG1+ONSAWOnfcNFAJyY/01708T8DlmaPp0tlD6er0TCLvnZ5M/174XS1WPPr1fb3UyZGhJwHMe9BOx3EmcAUykAehtJH1s5TIa8CfHx5JWz/dmfd2ezysHx/NcUn2//cvJW1vb1iXtMP0mx/NTwE6Ozgf6EufuYPqhwzOESVXASvzkv71JWiby3v8nVvpYAVb3DdrvptP8MeLY3kKWAdshabC+M1zOXD+uHz4ZlTnBX2yZVL18/edH/IZgj9O1bQs/vITIHmBiUhi12evpT1n/qLmlX7fptne/q9u935a/VtuI2vLSvWDy4dvpeazgj7JiqAY+gdtoGBs5KVE32Mo+I1XphJIDCQJ5AjQaTBkV/YAHugD9KlvvCiG80PAUxN2nKVCX9AQiTQFcv7dwz1o4kQ/+gRJmjLlFrp51ZfJTrIsnoCmZBbDpgiKogixhU6e2p6ifTHG6NJHXgO6dLBQX0WQNJAX6rfYvHp/rQWwl9uvXaHewfPWxRAQV9fxWwtgnq6vzgTlvt910K7+ziXOFNaXrn21FsAg9n+rN7nrgF393ZCTvX3p1xsHunaV/VsLgGXx8i5AXg6wiNpqFaNrPK0FsGiBhcu1PmA5H83J0J/FCzsuhN7EH8TzNAIbRD91ud5vXW8tQN1hkO6c7x1AQOzmp4DIICjvCWQYxMfhA2ScuMPxPZKvMbxrWAdCr9v5ioG9DZ0LIEhHXUdbg9E/n9uSP55KBHxUZQP2kq9ttPdFfhlTJJCgdwc2wHea5Es3/3enXfPvKrilnY6jWPhN6FwAgxjcIAKkk31FGqu+HEtmx6NtmnLA7CWfDyO+K7B7b8Blp2sP3anyl5Ft+f3EtPznndM9iGlKxuHThs4FMIBdAgRIt0p7IkDwrtrDjgt0cIdxApK36/AB7xVOkooRumsT+AS/ide5AAYReLzi0t1NCZaIINhLvvY6v0w+7qprwF3n1wQc/CYOW98cBYsPkIEMg+SyTScSrT9ykiyBFyj5UZDgKiTQ2cJnWNf8OlyuogayaMUq6hGtr6rBFyC7YD22pa4fiQIZp7QHnw0noJBA1zf7MJGnwH8PduSvNQYyqEXL3BWwtrCzaSt1dvPNwYSdLjlXSQNZW9hLvjYccOfxgM5v2MifxAys4pIzoMEFIThtdHY2CD7ZXAPzzRUUgz87kLWxBUq+ggAO+LJk0cPlP0zkKWDR8ZFCwgabWLs1/+8PGSTPTsYJvuJoq0NyEpEEkLXVeaFLFHAg5LAP85qfAGd93/klBGRnf7LBydroELpisA+CREoM4jyPtrYxngAAAP///0YmGwAAAAZJREFUAwDg2+hK4W8h7QAAAABJRU5ErkJggg==",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAEuklEQVR4AeTZPYgVVxQH8PteCAorBhLyoSCk2MhuEkga89XEJHU2TcAuRUjAWAabVCGVBEyKVAsJARUEQSzUTvCjWVEbFXQFFywWFBUFRUEFWed34SyX8TmzMPvcXZX9vznnnv+595wzcz9m7KeWf1vObJj7/tjrGeRAtLW4L3tzawFksOuT2bTzs6n08wd/ZLw3+nUa+/jb9MqaEeYVjQUV4GZ/Nk1c354O3p3MuPtwekUnXQbfWoDH9+6nmbmptHn1jXT8wVvzeFGK0FqAslrkidfeSLB21XhSHG0rGQsqwPGHJ57KcdOrG1+ONSAWOnfcNFAJyY/01708T8DlmaPp0tlD6er0TCLvnZ5M/174XS1WPPr1fb3UyZGhJwHMe9BOx3EmcAUykAehtJH1s5TIa8CfHx5JWz/dmfd2ezysHx/NcUn2//cvJW1vb1iXtMP0mx/NTwE6Ozgf6EufuYPqhwzOESVXASvzkv71JWiby3v8nVvpYAVb3DdrvptP8MeLY3kKWAdshabC+M1zOXD+uHz4ZlTnBX2yZVL18/edH/IZgj9O1bQs/vITIHmBiUhi12evpT1n/qLmlX7fptne/q9u935a/VtuI2vLSvWDy4dvpeazgj7JiqAY+gdtoGBs5KVE32Mo+I1XphJIDCQJ5AjQaTBkV/YAHugD9KlvvCiG80PAUxN2nKVCX9AQiTQFcv7dwz1o4kQ/+gRJmjLlFrp51ZfJTrIsnoCmZBbDpgiKogixhU6e2p6ifTHG6NJHXgO6dLBQX0WQNJAX6rfYvHp/rQWwl9uvXaHewfPWxRAQV9fxWwtgnq6vzgTlvt910K7+ziXOFNaXrn21FsAg9n+rN7nrgF393ZCTvX3p1xsHunaV/VsLgGXx8i5AXg6wiNpqFaNrPK0FsGiBhcu1PmA5H83J0J/FCzsuhN7EH8TzNAIbRD91ud5vXW8tQN1hkO6c7x1AQOzmp4DIICjvCWQYxMfhA2ScuMPxPZKvMbxrWAdCr9v5ioG9DZ0LIEhHXUdbg9E/n9uSP55KBHxUZQP2kq9ttPdFfhlTJJCgdwc2wHea5Es3/3enXfPvKrilnY6jWPhN6FwAgxjcIAKkk31FGqu+HEtmx6NtmnLA7CWfDyO+K7B7b8Blp2sP3anyl5Ft+f3EtPznndM9iGlKxuHThs4FMIBdAgRIt0p7IkDwrtrDjgt0cIdxApK36/AB7xVOkooRumsT+AS/ide5AAYReLzi0t1NCZaIINhLvvY6v0w+7qprwF3n1wQc/CYOW98cBYsPkIEMg+SyTScSrT9ykiyBFyj5UZDgKiTQ2cJnWNf8OlyuogayaMUq6hGtr6rBFyC7YD22pa4fiQIZp7QHnw0noJBA1zf7MJGnwH8PduSvNQYyqEXL3BWwtrCzaSt1dvPNwYSdLjlXSQNZW9hLvjYccOfxgM5v2MifxAys4pIzoMEFIThtdHY2CD7ZXAPzzRUUgz87kLWxBUq+ggAO+LJk0cPlP0zkKWDR8ZFCwgabWLs1/+8PGSTPTsYJvuJoq0NyEpEEkLXVeaFLFHAg5LAP85qfAGd93/klBGRnf7LBydroELpisA+CREoM4jyPtrYxngAAAP///0YmGwAAAAZJREFUAwDg2+hK4W8h7QAAAABJRU5ErkJggg==",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 6,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAEuklEQVR4AeTZPYgVVxQH8PteCAorBhLyoSCk2MhuEkga89XEJHU2TcAuRUjAWAabVCGVBEyKVAsJARUEQSzUTvCjWVEbFXQFFywWFBUFRUEFWed34SyX8TmzMPvcXZX9vznnnv+595wzcz9m7KeWf1vObJj7/tjrGeRAtLW4L3tzawFksOuT2bTzs6n08wd/ZLw3+nUa+/jb9MqaEeYVjQUV4GZ/Nk1c354O3p3MuPtwekUnXQbfWoDH9+6nmbmptHn1jXT8wVvzeFGK0FqAslrkidfeSLB21XhSHG0rGQsqwPGHJ57KcdOrG1+ONSAWOnfcNFAJyY/01708T8DlmaPp0tlD6er0TCLvnZ5M/174XS1WPPr1fb3UyZGhJwHMe9BOx3EmcAUykAehtJH1s5TIa8CfHx5JWz/dmfd2ezysHx/NcUn2//cvJW1vb1iXtMP0mx/NTwE6Ozgf6EufuYPqhwzOESVXASvzkv71JWiby3v8nVvpYAVb3DdrvptP8MeLY3kKWAdshabC+M1zOXD+uHz4ZlTnBX2yZVL18/edH/IZgj9O1bQs/vITIHmBiUhi12evpT1n/qLmlX7fptne/q9u935a/VtuI2vLSvWDy4dvpeazgj7JiqAY+gdtoGBs5KVE32Mo+I1XphJIDCQJ5AjQaTBkV/YAHugD9KlvvCiG80PAUxN2nKVCX9AQiTQFcv7dwz1o4kQ/+gRJmjLlFrp51ZfJTrIsnoCmZBbDpgiKogixhU6e2p6ifTHG6NJHXgO6dLBQX0WQNJAX6rfYvHp/rQWwl9uvXaHewfPWxRAQV9fxWwtgnq6vzgTlvt910K7+ziXOFNaXrn21FsAg9n+rN7nrgF393ZCTvX3p1xsHunaV/VsLgGXx8i5AXg6wiNpqFaNrPK0FsGiBhcu1PmA5H83J0J/FCzsuhN7EH8TzNAIbRD91ud5vXW8tQN1hkO6c7x1AQOzmp4DIICjvCWQYxMfhA2ScuMPxPZKvMbxrWAdCr9v5ioG9DZ0LIEhHXUdbg9E/n9uSP55KBHxUZQP2kq9ttPdFfhlTJJCgdwc2wHea5Es3/3enXfPvKrilnY6jWPhN6FwAgxjcIAKkk31FGqu+HEtmx6NtmnLA7CWfDyO+K7B7b8Blp2sP3anyl5Ft+f3EtPznndM9iGlKxuHThs4FMIBdAgRIt0p7IkDwrtrDjgt0cIdxApK36/AB7xVOkooRumsT+AS/ide5AAYReLzi0t1NCZaIINhLvvY6v0w+7qprwF3n1wQc/CYOW98cBYsPkIEMg+SyTScSrT9ykiyBFyj5UZDgKiTQ2cJnWNf8OlyuogayaMUq6hGtr6rBFyC7YD22pa4fiQIZp7QHnw0noJBA1zf7MJGnwH8PduSvNQYyqEXL3BWwtrCzaSt1dvPNwYSdLjlXSQNZW9hLvjYccOfxgM5v2MifxAys4pIzoMEFIThtdHY2CD7ZXAPzzRUUgz87kLWxBUq+ggAO+LJk0cPlP0zkKWDR8ZFCwgabWLs1/+8PGSTPTsYJvuJoq0NyEpEEkLXVeaFLFHAg5LAP85qfAGd93/klBGRnf7LBydroELpisA+CREoM4jyPtrYxngAAAP///0YmGwAAAAZJREFUAwDg2+hK4W8h7QAAAABJRU5ErkJggg==",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 7,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAACVklEQVR4AeyWOy8EYRSGzwwFBSHxB9yTJTEuCY1GqVBItBI6iV+gRPwBOqHQuxRoJBJRUK2VoBH0InErCLJrnpOczdgVis0Ws/Nt9t3vXN65vGfO2fl8SfjHFSDhDSCuA1wHJLwCbgQS3gDuT9CNgBuBhFfAjUDCG8C9BRI3AoUdX1SAnsxoDgTHI7oWHlBpflEBELidWpa+3iHxXt9xKxpFBUD04searD+9VLRwE1dUABLps1MJ7q4wKx4+825g7lGcq6sRgB3NkS/04cQZ2gHnTS1y2b6vOhCODTQQ/mBf9B3mi4KfaU6Fmfh/fWbeZCAeezI3JwCfPDbABtjVjSv5gnBMXOEjEjEmAIEb3pIAbPLYANt4FMHsOK86AogBJhhBX4+zP54weeIUgWIA/LhDR4BXXlQQ4qcb6lUbRcGAw2qAY3ac1/wIIIini2DEIxibGAKJ4WPDZWzMJxZX6Ahw8whiRTDizUYkgukQcsSNi134WvzLJ2evUlZAzGA+q4FrlBNagO70iHRdj+p1ENzzcCtAA+EPm6Jo3vhWENs6m3/auSknA3syPzgj/W2Bgq11eCr9XzE+PsAHW4OrspCa0m04fDsfnHLBPw/2vczwoccKorb50Rg2IAcoWHTrjH9QtSt12VoZ/5zQLTUdRQeRQ4jxEUjsQtLS8dmqGLs/0mPgwy03tANKuQgiEMhYIAZ/5+NMGBvAucmxkoNjfGKAQsEF+MaHi19OlFwA7/lN709vPpsTfJ4eIhij4OYyXwxyEnI4AL76OCF+41OwMFXS97+DvwEAAP//t3tkYQAAAAZJREFUAwBgRoY8u+UuVQAAAABJRU5ErkJggg==",
+              "width": 64,
+              "height": 32
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAl0lEQVR4AcSSyw2AIBAF0ToohA5ohO6ogAoohEI0YwJR+S3xIMkLB5h5m8CuPq5/BM65w1p7MPzyBMDGGNgrS4IMe+9VCGHDIBYAa63VHRYLgBk7xliagcl0AuBWMzAZCoB7zcCkKwAeNQOTpgB41gxMKgGwpBmYPATA0mZgUgQZfr8zl0YpgpRS9UlGYD4rAr4myQfS/QQAAP//QJKdVQAAAAZJREFUAwDheFghvEiz2QAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "iron_stick"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAwElEQVR4AaSRCxKEIAxDkz2ZV9ubeTM2KcpHhZlFxkBp6TPKBy/HBJASYM3fMAC0jW18hw0A14OGWNc80AEOzwmJ95POqOKlVQG4+SxEvyfrTA7WAhjU9R/lxiBLoc7pXbAUon4CAT2IwVKO7XTqHIjAf5pN7gBOyIc4tvAkVVEEjwDs+55aufAkXWRq5TMBcLCqAGzbJtsZ0cY5U2cy7NeEogBohRstx/gSRSRBZql4RKQy2tZr9GZFxcFKs3t+AAAA//9pBNWLAAAABklEQVQDAL/mQp6L5Ap0AAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "chouj"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAfUlEQVR4AdyQXQ6AIAyDpxeTm7mjcbO5zgd+QjERnySUlGV8FHZZHBSQczZVDcGzeyiAHejr/wSYiZildIjqGYIXr91qf4H/gW6ls/alGm4C8CDR4otW3rf1nAC+SIDooTcJkBPRIXgi/gRyoC8PAJs/fqYWMQC0DU+7ZcAFAAD//2/nspMAAAAGSURBVAMALPckIVGM70UAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "chouj_yaoji"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAo0lEQVR4AcSP0RbCMAhDk355/xyBlUnBY9UXt7ESCHdsoF6C/a79ojugGE6yAwjmoQlIRK5H3gHWoUIiVE8BLO6f01o8O0BEkCNcCRalOMfLgdWd0G9aHlCXuo5pq2vsG2ghP1MEU3QgF0v+FlC8u1xb/A5YuAGSK//uIH1u+BTpwvNPXuTtvwA2RPK4Ddk8T4BBLMjLRPbT+iU6oBhO8v+ABwAAAP//coZd3wAAAAZJREFUAwBccj0hRk0/qgAAAABJRU5ErkJggg==",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "diamond_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA5ElEQVR4AZxSARLCMAyCvbw/r8CWWF3v3NlbWkIJiW4HrjUx5wUBJYkm7kCS6I8CBJkiEXc5MGyL97J+qul+grcOQ4VXEJt10J11kVMblnChrjA87Oz5TqQLSdkTKN8+A7LEZk0Zir4bTP2ZFRLkUaucm+3TwIWLaEzNXpxNKhZNDDSNlAv7Dcuk+MUoBsX/c+Y7kCF/Fn9NUVPnNVby02QREPrwlOcnVCKO4h491TQGlaSS3JuQzVtPdbM+BpWYSJDM+WCLgXV2dRgnSKoJGwecG3VxIqANKNJRF32SbCzgJmu8AAAA//8iG9V+AAAABklEQVQDAAikaBVtXrN5AAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "enchant_diamond_apple"
+          },
+          {
+            "_t": 2,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVR4AdyQ4Q6AIAiEofd/Z+PY2E5UYqtfFReE3Df1kpfP54BhG4Is9YJ3wEauS1IAdoZdb4EFQG0FsuSBGvKf6hOA88yQ+U2TNQDWZHAc9WoADZ7K3wNUdDm7zr3nO4CBlYgZoLYOWepFBvRcNHUDAAD//8R5O9EAAAAGSURBVAMAGvcSIQ3Q2U0AAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "create"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAk0lEQVR4AaSOUQ6AIAzFwPvfGe0HSdkmxGjSuMFb2dV+fkkw2hjm5E+C3npnqD9/mDLOKpKA0BycNf83SoHDbOA+1knAADjojXxOnQQcfmERxJfdv22xCHiZIFCDa/pIEsSAe2TeirskiAFCEWcWAS8QdoB+xyIgOCXUgMxwD9xBEnBoCBvfUZeC3QBDphQ4cKpvAAAA//+MsboPAAAABklEQVQDAPgmQiFHVlKtAAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "yohengsuip"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjElEQVR4AdSQ0Q6AIAhFoS+vLzeP293QQt16qu0OEO4hPezjlwKKlRKV7UkBGNzcETkw4qgpQMOCqI5xCxANY/4TQPaAXGd5BZmzh1wC2JKZ6U0BbL/MmUvVAU6zImFEOHVGpI7qADTqkCNyiRqpjvEN0P4iDlXz40z9DlAH23aiBojUEnVUB4iN3fwGAAD//ycB9owAAAAGSURBVAMA3o4tnqzfd+IAAAAASUVORK5CYII=",
+              "width": 16,
+              "height": 16
+            },
+            "_filename_id": "yonghengbolid"
+          }
+        ],
+        "原版数据包/配方": [
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass_bottle"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 6
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_hp"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_ingot"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "   "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A  "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A  "
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_bord"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:glass_bottle"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:slime_ball"
+                  },
+                  "undefined_symbol_D": {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ACA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ADA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 2
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glue"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:glass_bottle"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:golden_apple"
+                  },
+                  "undefined_symbol_D": {
+                    "_t": 0,
+                    "_d": "minecraft:enchanted_golden_apple"
+                  },
+                  "undefined_symbol_E": {
+                    "_t": 0,
+                    "_d": "minecraft:golden_carrot"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "CDE"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "CDE"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:hath_boost_poison"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_poison_one_heath_buff"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "   "
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_helmet"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_head"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_chestplate"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_arm"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_leggings"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_middeldown"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:gluu"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "   "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_boots"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:bord"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 2
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_bass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_helmet"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_chestplate"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_leggings"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:emerald"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "A A"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:quarzeril_boots"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_ingot"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "arms:iron_stick"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": " B "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": " B "
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_pickaxe"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_iron_pike"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shapeless"
+              },
+              "ingredients": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:stick"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:iron_nugget"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:iron_nugget"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:iron_stick"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 8
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_iron_stick"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:water_bucket"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:glass_bottle"
+                  },
+                  "undefined_symbol_C": {
+                    "_t": 0,
+                    "_d": "minecraft:iron_nugget"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "A  "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "B  "
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "C  "
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:chouj_yaoji"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_choujian"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 16
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glass_lade_glass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:smelting"
+              },
+              "ingredient": {
+                "_t": 0,
+                "_d": "minecraft:glass_pane"
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_glasspainlada"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "minecraft:diamond"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:golden_apple"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:diamond_apple"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 10
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_dimand_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shaped"
+              },
+              "key": {
+                "_t": 0,
+                "_d": {
+                  "undefined_symbol_A": {
+                    "_t": 0,
+                    "_d": "arms:diamond_apple"
+                  },
+                  "undefined_symbol_B": {
+                    "_t": 0,
+                    "_d": "minecraft:enchanted_golden_apple"
+                  }
+                }
+              },
+              "pattern": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "ABA"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "AAA"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:enchant_diamond_apple"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 8
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_enchant_diamand_apple"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "type": {
+                "_t": 0,
+                "_d": "minecraft:crafting_shapeless"
+              },
+              "ingredients": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "arms:yohengsuip"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "arms:glass_lade"
+                  },
+                  {
+                    "_t": 0,
+                    "_d": "minecraft:stone_sword"
+                  }
+                ]
+              },
+              "result": {
+                "_t": 0,
+                "_d": {
+                  "id": {
+                    "_t": 0,
+                    "_d": "arms:yonghengbolid"
+                  },
+                  "count": {
+                    "_t": 0,
+                    "_d": 1
+                  }
+                }
+              }
+            },
+            "_filename_id": "item_yonghengd"
+          }
+        ],
+        "原版资源包/装备资产": [
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:glass_helmet"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:glass_chestplate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid_leggings": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:glass_leggings"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:glass_boots"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_boots"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:quarzeril_helmet"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_helmet"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:quarzeril_chestplate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_chestplate"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid_leggings": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:quarzeril_leggings"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_leggings"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "layers": {
+                "_t": 0,
+                "_d": {
+                  "undefined_preset_type_humanoid": {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": {
+                          "texture": {
+                            "_t": 0,
+                            "_d": "arms:quarzeril_boots"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "_filename_id": "quarzeril_boots"
+          }
+        ],
+        "数据包附加/状态效果": [
+          {
+            "_t": 0,
+            "_d": {
+              "id": {
+                "_t": 0,
+                "_d": "glass_but"
+              },
+              "tick_function": {
+                "_t": 0,
+                "_d": "arms:glass_but_tick"
+              },
+              "start_function": {
+                "_t": 0,
+                "_d": "arms:glass_but_start"
+              },
+              "end_function": {
+                "_t": 0,
+                "_d": "arms:glass_but_remove"
+              }
+            },
+            "_filename_id": "glass_but"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "id": {
+                "_t": 0,
+                "_d": "heath_down"
+              },
+              "start_function": {
+                "_t": 0,
+                "_d": "arms:heath_down_start"
+              },
+              "tick_function": {
+                "_t": 0,
+                "_d": "arms:heath_down_tick"
+              },
+              "end_function": {
+                "_t": 0,
+                "_d": "arms:heath_down_remove"
+              }
+            },
+            "_filename_id": "heath_down"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "id": {
+                "_t": 0,
+                "_d": "chouj"
+              },
+              "start_function": {
+                "_t": 0,
+                "_d": "arms:chouj_start"
+              },
+              "tick_function": {
+                "_t": 0,
+                "_d": "arms:chouj_tick"
+              },
+              "end_function": {
+                "_t": 0,
+                "_d": "arms:chouj_remove"
+              }
+            },
+            "_filename_id": "chouj"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "id": {
+                "_t": 0,
+                "_d": "create"
+              },
+              "start_function": {
+                "_t": 0,
+                "_d": "arms:create_start"
+              },
+              "tick_function": {
+                "_t": 0,
+                "_d": "arms:create_tick"
+              },
+              "end_function": {
+                "_t": 0,
+                "_d": "arms:create_remove"
+              }
+            },
+            "_filename_id": "create"
+          }
+        ],
+        "原版数据包/函数": [
+          {
+            "_t": 0,
+            "_d": "damage @s 0.5",
+            "_filename_id": "glass_haeth_start"
+          },
+          {
+            "_t": 0,
+            "_d": "damage @n 0.5",
+            "_filename_id": "glass_haeth_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "give @s minecraft:apple 1",
+            "_filename_id": "glass_haeth_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @s 0.5\n",
+            "_filename_id": "glass_but_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @p 0.5\n",
+            "_filename_id": "glass_but_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "glass_but_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "advancement revoke @s only arms:glass_arms_trigger_adv\n# 请勿删除此行\neffect give @n arms:glass_but 60 2",
+            "_filename_id": "glass_arms_trigger_exe"
+          },
+          {
+            "_t": 0,
+            "_d": "",
+            "_filename_id": "tick"
+          },
+          {
+            "_t": 0,
+            "_d": "",
+            "_filename_id": "load"
+          },
+          {
+            "_t": 0,
+            "_d": "advancement revoke @s only arms:aac_trigger_adv\n# 请勿删除此行\ndamage @s 0.5\nattribute @s minecraft:movement_speed base set 0.5",
+            "_filename_id": "aac_trigger_exe"
+          },
+          {
+            "_t": 0,
+            "_d": "\ndamage @s 0.5\n",
+            "_filename_id": "heath_down_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "heath_down_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\n\n",
+            "_filename_id": "heath_down_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.05} run give @s minecraft:diamond 32\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.25} run give @s minecraft:gold_ingot 32\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.3} run give @s minecraft:emerald 32\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.4} run give @s minecraft:iron_ingot 32\n",
+            "_filename_id": "chouj_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.1} run give @s minecraft:enchanted_golden_apple 2\nexecute if predicate {\"condition\":\"minecraft:random_chance\",\"chance\":0.9} run give @s minecraft:golden_apple 2\n",
+            "_filename_id": "chouj_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\ngive @s minecraft:netherite_upgrade_smithing_template 64\ngive @s minecraft:netherite_ingot 64\n",
+            "_filename_id": "chouj_remove"
+          },
+          {
+            "_t": 0,
+            "_d": "\ngamemode creative @s\n",
+            "_filename_id": "create_start"
+          },
+          {
+            "_t": 0,
+            "_d": "\ngive @s minecraft:bedrock 1\n",
+            "_filename_id": "create_tick"
+          },
+          {
+            "_t": 0,
+            "_d": "\ngamemode survival @s\n",
+            "_filename_id": "create_remove"
+          }
+        ],
+        "原版数据包/进度": [
+          {
+            "_t": 0,
+            "_d": {
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_first": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:entity_hurt_player"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "player": {
+                            "_t": 0,
+                            "_d": {
+                              "equipment": {
+                                "_t": 0,
+                                "_d": {
+                                  "head": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_helmet"
+                                      }
+                                    }
+                                  },
+                                  "chest": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_chestplate"
+                                      }
+                                    }
+                                  },
+                                  "legs": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_leggings"
+                                      }
+                                    }
+                                  },
+                                  "feet": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "items": {
+                                        "_t": 0,
+                                        "_d": "arms:glass_boots"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "trigger?1": {
+                            "_t": 0,
+                            "_d": "minecraft:impossible"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "rewards": {
+                "_t": 0,
+                "_d": {
+                  "function": {
+                    "_t": 0,
+                    "_d": "arms:glass_arms_trigger_exe"
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_arms_trigger_adv"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:story/smelt_iron"
+              },
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:gluu"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "粘合剂"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "黏黏的"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "items": {
+                                    "_t": 1,
+                                    "_d": [
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:gluu"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          "trigger?1": {
+                            "_t": 0,
+                            "_d": "minecraft:inventory_changed"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": "obtain_item"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "_filename_id": "glue"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "arms:glue"
+              },
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:glass_lade"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "脆弱的东西"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "脆脆的"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "items": {
+                                    "_t": 1,
+                                    "_d": [
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:glass_helmet"
+                                      },
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:glass_chestplate"
+                                      },
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:glass_leggings"
+                                      },
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:glass_boots"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          "trigger?1": {
+                            "_t": 0,
+                            "_d": "minecraft:inventory_changed"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": "obtain_item"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "_filename_id": "armer_glass"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_first": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:location"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "player": {
+                            "_t": 0,
+                            "_d": {
+                              "entity_type": {
+                                "_t": 0,
+                                "_d": "minecraft:player"
+                              },
+                              "location": {
+                                "_t": 0,
+                                "_d": {
+                                  "block": {
+                                    "_t": 0,
+                                    "_d": {
+                                      "blocks": {
+                                        "_t": 0,
+                                        "_d": ""
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "trigger?1": {
+                            "_t": 0,
+                            "_d": "minecraft:impossible"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "rewards": {
+                "_t": 0,
+                "_d": {
+                  "function": {
+                    "_t": 0,
+                    "_d": "arms:aac_trigger_exe"
+                  }
+                }
+              }
+            },
+            "_filename_id": "aac_trigger_adv"
+          },
+          {
+            "_t": 0,
+            "_d": {
+              "parent": {
+                "_t": 0,
+                "_d": "minecraft:story/smelt_iron"
+              },
+              "display": {
+                "_t": 0,
+                "_d": {
+                  "icon": {
+                    "_t": 0,
+                    "_d": {
+                      "id": {
+                        "_t": 0,
+                        "_d": "arms:iron_stick"
+                      }
+                    }
+                  },
+                  "title": {
+                    "_t": 0,
+                    "_d": "多此一举"
+                  },
+                  "description": {
+                    "_t": 0,
+                    "_d": "不如用木棍"
+                  },
+                  "frame": {
+                    "_t": 0,
+                    "_d": "task"
+                  },
+                  "show_toast": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "announce_to_chat": {
+                    "_t": 0,
+                    "_d": true
+                  },
+                  "hidden": {
+                    "_t": 0,
+                    "_d": false
+                  }
+                }
+              },
+              "criteria": {
+                "_t": 0,
+                "_d": {
+                  "undefined_criterion_obtain_item": {
+                    "_t": 0,
+                    "_d": {
+                      "trigger": {
+                        "_t": 0,
+                        "_d": "minecraft:inventory_changed"
+                      },
+                      "conditions": {
+                        "_t": 0,
+                        "_d": {
+                          "items": {
+                            "_t": 0,
+                            "_d": [
+                              {
+                                "_t": 0,
+                                "_d": {
+                                  "items": {
+                                    "_t": 1,
+                                    "_d": [
+                                      {
+                                        "_t": 0,
+                                        "_d": "arms:iron_stick"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          "trigger?1": {
+                            "_t": 0,
+                            "_d": "minecraft:inventory_changed"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "requirements": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": [
+                      {
+                        "_t": 0,
+                        "_d": "obtain_item"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "_filename_id": "dcyj"
+          }
+        ],
+        "数据包附加/方块": [
+          {
+            "_t": 0,
+            "_d": {
+              "block_id": {
+                "_t": 0,
+                "_d": "glass_lade_block"
+              },
+              "settings": {
+                "_t": 0,
+                "_d": {
+                  "hardness": {
+                    "_t": 0,
+                    "_d": 0.5
+                  },
+                  "luminance": {
+                    "_t": 0,
+                    "_d": 0
+                  }
+                }
+              }
+            },
+            "_filename_id": "glass_lade_block"
+          }
+        ]
+      },
+      "_files": {}
+    },
+    "minecraft": {
+      "_datadriven": {
+        "原版数据包/标签": [
+          {
+            "_t": 3,
+            "_d": {
+              "values": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "arms:tick"
+                  }
+                ]
+              }
+            },
+            "_filename_id": "tick"
+          },
+          {
+            "_t": 3,
+            "_d": {
+              "values": {
+                "_t": 0,
+                "_d": [
+                  {
+                    "_t": 0,
+                    "_d": "arms:load"
+                  }
+                ]
+              }
+            },
+            "_filename_id": "load"
+          }
+        ]
+      },
+      "_files": {}
+    }
+  }
+}
