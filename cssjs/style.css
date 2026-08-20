@@ -1,2 +1,35 @@
-
+#frabic{
+            color: rgb(255, 0, 0);
+            font-size:xx-large;
+        }
+.splj{
+            font-size:x-large;
+        }
+.spljsmall{
+            font-size:large;
+        }
+#zhichi{
+            color: #ff0000;
+            font-size: larger;
+        }
+.beta{
+            background-color: greenyellow;
+            width: 113;
+        }
+.res{
+            background-color: #0000ff;
+            width: 165;
+        }
+.dmod{
+    font-size:large;
+}
+.back{
+    font-size: large;
+}
+.workfile{
+    font-size: larger;
+}
+.spljfile{
+    font-size: x-large;
+}
 
