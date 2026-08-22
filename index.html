@@ -1,22 +1,390 @@
-<html lang="zh">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>armers主页面</title>
-    <link rel="stylesheet" href="cssjs/style.css">
+    <title>积分抽奖管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f0f4f8;
+            padding: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .login-box{
+            max-width:420px;
+            margin:80px auto;
+            background:#fff;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 2px 12px rgba(0,0,0,0.08);
+        }
+        .login-box h2{
+            text-align:center;
+            margin-bottom:20px;
+            color:#2c3e50;
+        }
+        .hide-page{
+            display:none;
+        }
+        .account-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:20px;
+            margin-bottom:30px;
+        }
+        .account-card {
+            background: #fff;
+            padding:24px;
+            border-radius:12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .account-card h2 {
+            font-size:20px;
+            color:#34495e;
+            margin-bottom:12px;
+        }
+        .score-text {
+            font-size:26px;
+            color:#e67e22;
+            font-weight:bold;
+            margin:8px 0;
+        }
+        .ticket-text{
+            font-size:18px;
+            color:#3498db;
+            margin:6px 0;
+        }
+        .yuan-text {
+            color:#7f8c8d;
+        }
+        .operate-box {
+            background:#fff;
+            padding:24px;
+            border-radius:12px;
+            box-shadow:0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom:20px;
+        }
+        .row {
+            margin:14px 0;
+            display:flex;
+            gap:12px;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+        select,input {
+            padding:10px 12px;
+            font-size:16px;
+            border:1px solid #cbd5e0;
+            border-radius:6px;
+        }
+        button {
+            padding:10px 18px;
+            border:none;
+            border-radius:6px;
+            cursor:pointer;
+            font-size:16px;
+        }
+        .btn-add {
+            background:#27ae60;
+            color:white;
+        }
+        .btn-sub{
+            background:#d35400;
+            color:#fff;
+        }
+        .btn-buyticket{
+            background:#9b59b6;
+            color:#fff;
+        }
+        .btn-lottery {
+            background:#2980b9;
+            color:white;
+        }
+        .btn-reset{
+            background:#e74c3c;
+            color:#fff;
+        }
+        .btn-exchange{
+            background:#f39c12;
+            color:#fff;
+        }
+        .btn-logout{
+            background:#607d8b;
+            color:#fff;
+            margin-bottom:20px;
+        }
+        .lottery-result {
+            margin-top:16px;
+            font-size:17px;
+            color:#c0392b;
+            font-weight:500;
+        }
+        .exchange-result{
+            margin-top:10px;
+            font-size:16px;
+            color:#27ae60;
+        }
+    </style>
 </head>
 <body>
-    <h1>Beta版ModBUG较多,反馈BUG请在邮箱</h1>
-    <hr>
-    <strong id="frabic">仅支持1.21.11frabic</strong>
-    <hr>
-    <span class="spljfile">下载最新版0.0.1 pre 2</span>
-    <a href="./img/PRE 2/armers.jar" class="splj">最新版模组</a>
-    <br>
-    <a href="index2.html" class="spljsmall">下载历史版本MOD</a>
-    <hr>
-    <span class="workfile">下载工作文件?<a href="index3.html">点击这里</a></span>
-    <hr>
-    <span>旧版本移植</span>
-    <a href="./img/old1.20.1/PRE 2/armers frabic0.0.1pre2.jar">1.20.1 0.0.1pre2下载</a>
+    <!--登录界面-->
+    <div class="login-box" id="loginScreen">
+        <h2>账户登录</h2>
+        <div class="row">
+            <select id="loginAcc">
+                <option value="A">俊俊</option>
+                <option value="B">梓瑞</option>
+            </select>
+        </div>
+        <div class="row">
+            <input type="password" id="loginPwd" placeholder="输入账户密码">
+        </div>
+        <div class="row">
+            <button onclick="login()">登录系统</button>
+        </div>
+    </div>
+
+    <!--主功能页面，默认隐藏-->
+    <div id="mainPage" class="hide-page">
+        <button class="btn-logout" onclick="logout()">退出登录</button>
+        <h1>积分抽奖管理系统（1积分 = 1角）</h1>
+        <div style="margin-bottom:10px;color:#2980b9;">当前登录账户：<span id="currentLoginName"></span>，仅可操作本人账户</div>
+
+        <div class="account-wrap">
+            <div class="account-card">
+                <h2>俊俊</h2>
+                <div class="score-text">积分：<span id="scoreA">0</span></div>
+                <div class="ticket-text">抽奖券：<span id="ticketA">0</span> 张</div>
+                <div class="yuan-text">折合金额：<span id="moneyA">0.00</span> 元</div>
+            </div>
+            <div class="account-card">
+                <h2>梓瑞</h2>
+                <div class="score-text">积分：<span id="scoreB">0</span></div>
+                <div class="ticket-text">抽奖券：<span id="ticketB">0</span> 张</div>
+                <div class="yuan-text">折合金额：<span id="moneyB">0.00</span> 元</div>
+            </div>
+        </div>
+
+        <div class="operate-box">
+            <h3>手动增加/扣减积分（仅操作本人账户）</h3>
+            <div class="row">
+                <span>操作账户：<span id="selfOperateAcc"></span></span>
+                <input type="text" id="operateNum" placeholder="输入积分数量">
+                <button class="btn-add" onclick="manualAddScore()">增加积分</button>
+                <button class="btn-sub" onclick="manualSubScore()">扣减积分</button>
+            </div>
+        </div>
+
+        <div class="operate-box">
+            <h3>积分兑换现金（1积分=0.1元，仅操作本人账户）</h3>
+            <div class="row">
+                <span>兑换账户：<span id="selfExchangeAcc"></span></span>
+                <input type="text" id="exchangeScore" placeholder="输入兑换积分">
+                <button class="btn-exchange" onclick="exchangeMoney()">确认兑换</button>
+            </div>
+            <div class="exchange-result" id="exchangeResult"></div>
+        </div>
+
+        <div class="operate-box">
+            <h3>购买抽奖券（1张抽奖券消耗100积分，仅操作本人账户）</h3>
+            <div class="row">
+                <span>购买账户：<span id="selfBuyAcc"></span></span>
+                <button class="btn-buyticket" onclick="buyTicket()">购买1张抽奖券</button>
+            </div>
+        </div>
+
+        <div class="operate-box">
+            <h3>积分抽奖（消耗1张抽奖券进行一次抽奖，仅操作本人账户）</h3>
+            <div class="row">
+                <span>抽奖账户：<span id="selfLotteryAcc"></span></span>
+                <button class="btn-lottery" onclick="doLottery()">点击抽奖</button>
+            </div>
+            <div class="lottery-result" id="lotteryResult"></div>
+        </div>
+    </div>
+
+<script>
+//登录密码：俊俊12457810，梓瑞23568910；统一操作密码：12457810
+const accountLoginPwd = {
+    A:"12457810",
+    B:"23568910"
+};
+const operatePwd = "12457810";
+const accountName = {
+    A:"俊俊",
+    B:"梓瑞"
+};
+let loginUser = null;
+
+//登录校验
+function login(){
+    const acc = document.getElementById("loginAcc").value;
+    const pwd = document.getElementById("loginPwd").value;
+    if(accountLoginPwd[acc] === pwd){
+        loginUser = acc;
+        document.getElementById("loginScreen").style.display = "none";
+        document.getElementById("mainPage").style.display = "block";
+        document.getElementById("currentLoginName").innerText = accountName[loginUser];
+        document.getElementById("selfOperateAcc").innerText = accountName[loginUser];
+        document.getElementById("selfExchangeAcc").innerText = accountName[loginUser];
+        document.getElementById("selfBuyAcc").innerText = accountName[loginUser];
+        document.getElementById("selfLotteryAcc").innerText = accountName[loginUser];
+        render();
+    }else{
+        alert('密码错误！');
+        document.getElementById("loginPwd").value = "";
+    }
+}
+
+//退出登录
+function logout(){
+    loginUser = null;
+    document.getElementById("mainPage").style.display = "none";
+    document.getElementById("loginScreen").style.display = "block";
+    document.getElementById("loginPwd").value = "";
+}
+
+//操作密码弹窗，所有人操作密码统一12457810
+function checkOperatePwd(){
+    const inputPwd = prompt("请输入操作密码：");
+    if(inputPwd === null) return false;
+    if(inputPwd !== operatePwd){
+        alert("密码错误，禁止执行该操作！");
+        return false;
+    }
+    return true;
+}
+
+//初始化数据
+let data = JSON.parse(localStorage.getItem("scoreData")) || {
+    A:{score:0,ticket:0},
+    B:{score:0,ticket:0}
+}
+
+//更新页面显示
+function render(){
+    document.getElementById("scoreA").innerText = data.A.score;
+    document.getElementById("ticketA").innerText = data.A.ticket;
+    document.getElementById("moneyA").innerText = (data.A.score * 0.1).toFixed(2);
+
+    document.getElementById("scoreB").innerText = data.B.score;
+    document.getElementById("ticketB").innerText = data.B.ticket;
+    document.getElementById("moneyB").innerText = (data.B.score * 0.1).toFixed(2);
+
+    localStorage.setItem("scoreData",JSON.stringify(data));
+}
+
+//手动给自己账户加积分
+function manualAddScore(){
+    if(!checkOperatePwd()) return;
+    const acc = loginUser;
+    const inputStr = document.getElementById("operateNum").value.trim();
+    const num = parseInt(inputStr,10);
+
+    if(inputStr === "" || isNaN(num) || num <=0){
+        alert("请输入有效的正整数积分！");
+        return;
+    }
+    data[acc].score += num;
+    render();
+    document.getElementById("operateNum").value = "";
+}
+
+//扣减自己账户积分
+function manualSubScore(){
+    if(!checkOperatePwd()) return;
+    const acc = loginUser;
+    const inputStr = document.getElementById("operateNum").value.trim();
+    const num = parseInt(inputStr,10);
+
+    if(inputStr === "" || isNaN(num) || num <=0){
+        alert("请输入有效的正整数积分！");
+        return;
+    }
+    if(data[acc].score < num){
+        alert("账户积分不足，无法扣减！");
+        return;
+    }
+    data[acc].score -= num;
+    render();
+    document.getElementById("operateNum").value = "";
+}
+
+//积分兑换现金，只能兑换自己账户
+function exchangeMoney(){
+    if(!checkOperatePwd()) return;
+    const acc = loginUser;
+    const inputStr = document.getElementById("exchangeScore").value.trim();
+    const exchangeNum = parseInt(inputStr,10);
+    const resDom = document.getElementById("exchangeResult");
+
+    if(inputStr === "" || isNaN(exchangeNum) || exchangeNum <=0){
+        resDom.innerText = "❌请输入有效的兑换积分";
+        return;
+    }
+    if(data[acc].score < exchangeNum){
+        resDom.innerText = "❌积分不足，无法兑换";
+        return;
+    }
+    const getMoney = (exchangeNum * 0.1).toFixed(2);
+    data[acc].score -= exchangeNum;
+    resDom.innerText = `✅兑换成功！扣除${exchangeNum}积分，获得 ${getMoney} 元`;
+    document.getElementById("exchangeScore").value = "";
+    render();
+}
+
+//购买抽奖券，只能给自己买
+function buyTicket(){
+    if(!checkOperatePwd()) return;
+    const acc = loginUser;
+    if(data[acc].score >= 100){
+        data[acc].score -=100;
+        data[acc].ticket +=1;
+        alert("购买成功！获得1张抽奖券");
+        render();
+    }else{
+        alert("积分不足！购买一张抽奖券需要100积分");
+    }
+}
+
+//抽奖奖品池
+const prizePool = [
+    {name:"1倍积分+10",score:10},
+    {name:"2倍积分+20",score:20},
+    {name:"3倍积分+30",score:30},
+    {name:"0.5倍积分+5",score:5},
+    {name:"直接增加50积分",score:50},
+    {name:"直接增加15积分",score:15},
+    {name:"4倍积分+40",score:40}
+]
+
+//只能给自己抽奖
+function doLottery(){
+    if(!checkOperatePwd()) return;
+    const acc = loginUser;
+    if(data[acc].ticket <=0){
+        document.getElementById("lotteryResult").innerText = "❌没有抽奖券，请先购买抽奖券！";
+        return;
+    }
+    data[acc].ticket -=1;
+    const randomIndex = Math.floor(Math.random() * prizePool.length);
+    const prize = prizePool[randomIndex];
+    data[acc].score += prize.score;
+    document.getElementById("lotteryResult").innerText = `🎉恭喜抽到【${prize.name}】，获得 ${prize.score} 积分！`;
+    render();
+}
+</script>
+</body>
 </html>
